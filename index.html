@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        white: '#FFFFFF',
+                        ocean: {
+                            100: '#CCEDEF',
+                            200: '#99DAE0',
+                            300: '#66C8D0',
+                            400: '#33B5C1',
+                            500: '#00A3B1',
+                            600: '#00828E',
+                            700: '#00626A',
+                            800: '#004147',
+                            900: '#002123',
+                        },
+                        azure: {
+                            100: '#D2E6F3',
+                            200: '#A4CDE6',
+                            300: '#77B3DA',
+                            400: '#499ACD',
+                            500: '#1C81C1',
+                            600: '#16679A',
+                            700: '#114D74',
+                            800: '#0B344D',
+                            900: '#061A27',
+                        },
+                        violet: {
+                            50: '#F7F6FE',
+                            100: '#DCDAF9',
+                            200: '#B8B6F3',
+                            300: '#9591EC',
+                            400: '#716DE6',
+                            500: '#4E48E0',
+                            600: '#3E3AB3',
+                            700: '#2F2B86',
+                            800: '#1F1D5A',
+                            900: '#100E2D',
+                        },
+                        gray: {
+                            900: '#111111',
+                            800: '#54595F',
+                            700: '#E8E8E8',
+                            600: '#F7F8FB',
+                        },
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="min-h-screen w-full bg-gray-100">
+        <!-- top navigation -->
+        <div class="fixed z-50 flex w-full items-center justify-between space-x-4 bg-white/10 p-4  backdrop-blur-2xl">
+            <div class="w-full justify-start text-2xl text-gray-800">Lite</div>
+            <div class="flex w-full justify-end">
+                <ul class="flex space-x-4">
+                    <li>Link</li>
+                    <li>Link</li>
+                    <li>Link</li>
+                    <li>Link</li>
+                </ul>
+            </div>
+        </div>
+        <!-- end of top navigation -->
+
+        <!-- hero section -->
+        <div class="h-screen w-full relative flex justify-center items-center">
+            <!-- Image and SVG Background -->
+            <div class="relative w-full text-center bg-cover bg-[#E8FCFF] bg-center">
+                <!-- Image -->
+                <img class="h-full w-full pt-64 object-cover"
+                    src="https://images.pexels.com/photos/8933547/pexels-photo-8933547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="" srcset="" />
+
+                <!-- SVG Overlay -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <svg width="667" height="666" viewBox="0 0 667 666" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M266.513 443.295H21.4131C14.5 443.924 1.42798 441.033 4.4446 424.441L255.201 28.51C259.6 20.34 277.449 4 313.648 4C349.847 4 459.451 4 509.728 4C518.527 4.62846 533.861 10.4103 524.811 28.51C518.155 40.9905 464.913 126.715 404.899 222.705M266.513 443.295C302.863 385.529 356.118 300.726 404.899 222.705M266.513 443.295C230.062 501.114 154.896 620.144 145.846 633.719C136.796 647.294 147.103 660.115 155.273 662C214.348 662 339.287 662 366.436 662C393.586 662 416.713 638.118 424.883 626.178C454.954 577.859 497.763 509.023 538.586 443.295M266.513 443.295H538.586M404.899 222.705H649.244C656.786 223.962 669.229 231.001 658.671 249.1C652.431 259.798 597.584 348.301 538.586 443.295"
+                            stroke="white" stroke-opacity="0.32" stroke-width="6.81865" />
+                    </svg>
+                </div>
+                <div class="absolute inset-0 h-full w-full bg-gradient-to-b from-[#E8FCFF] from-10% via-[#E8FCFF] via-30% to-[#08A0B9]/0"></div>
+            </div>
+
+            <div class="absolute mx-auto max-w-5xl w-full h-full text-center text-white pt-32 sm:pt-56">
+                <h1
+                    class="header text-4xl sm:text-7xl font-extrabold tracking-tight md:tracking-tight leading-tight md:leading-tight text-gray-900">
+                    My Top 10 Books for 2023</h1>
+                <p class="sub-header mt-4 md:mt-6 text-lg sm:text-2xl leading-1 text-gray-800">Call our branding and marketing assets
+                    in one place to help you promote MailerSend with the same designs and messaging that we use.</p>
+                <div class="flex flex-row items-center justify-center space-x-4 mt-4 md:mt-6">
+                    <a href="" target="_blank" rel="noopener noreferrer"
+                        class="bg-violet-500 border-0 border-transparent text-white hover:bg-violet-600 focus:ring-violet-300 px-6 py-4 text-base sm:text-lg font-bold rounded-lg justify-center items-center text-center shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition-color ease-in-out duration-300 hover:delay-75 hover:cursor-pointer disabled:opacity-75 disabled:bg-gray-500/50 disabled:cursor-not-allowed">Get
+                        Purchase</a>
+                </div>
+            </div>
+        </div>
+        <!-- end hero section -->
+    </div>
+
+</body>
+
+</html>
