@@ -19,4 +19,4 @@ Share the link to your GitHub repository where the project's code is hosted.
 
 ## Loom Video
 
-- **Loom Video Link:** [Loom Video](link_here)
+- **Explainer Video Link:** [Loom Video](https://www.loom.com/share/a8bc6d95d25f4e27960c529e98e2fa23?sid=097f907a-0631-49a6-9432-b6d188833261)
